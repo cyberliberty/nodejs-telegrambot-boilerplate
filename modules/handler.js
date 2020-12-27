@@ -1,4 +1,5 @@
 const Logger = require("../core/logger");
+const User = require("../models/User");
 
 class Handler {
   constructor(telegrafBot) {
